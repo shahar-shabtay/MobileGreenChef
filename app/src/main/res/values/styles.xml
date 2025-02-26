@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:dropDownVerticalOffset">4dp</item>
+        <!-- You can adjust the offset as needed -->
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">4dp</item>
+    </style>
+    <style name="RoundedSquare">
+        <item name="cornerSize">10%</item>
+    </style>
+    <style name="favoriteCheckBoxStyle" parent="Base.Theme.AppCompat">
+    </style>
+
+    <style name="RatingBarStyle" parent="Widget.AppCompat.RatingBar">
+        <item name="colorControlActivated">@color/favoriteColor</item>
+    </style>
+
+    <style name="GreenButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/green_button_background</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+</resources>
